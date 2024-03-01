@@ -1,0 +1,310 @@
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('src/assets/fonts/Rubik-VariableFont_wght.ttf') format('tff'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+.user-section-container{
+    width: 255px;
+    position: relative;
+    height: 518px;
+  
+
+
+.user-image-section{
+ display: flex;
+flex-direction: column;
+    width: 255px;
+    height: 300px;
+    background: #5747EA;
+    border-radius: 12px;
+    padding-top: 32px;
+    position: relative;
+z-index: 2;
+
+
+
+.image-section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-section{
+    padding-left: 23px;
+    margin-top: 17px;
+    color: #ffffff;
+    font-family:'Rubik','sans-serif';
+
+    span {
+        
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0px;
+        color: #BBC0FF;
+    }
+    h1{
+     
+font-size: 40px;
+font-weight: 300;
+line-height: 47px;
+letter-spacing: 12px;
+text-transform: capitalize;
+margin-top: 10px;
+
+    }
+
+
+}
+
+
+
+
+
+}
+
+.filters-section{
+    width: 255px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    background: #1C204B;
+    position: absolute;
+    top: 0%;
+    height: 432px;
+    z-index: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+
+
+
+
+
+.filter-item{
+    margin-left: 32px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: none;
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+color:#7078C9;
+cursor: pointer;
+
+
+}
+
+.filter-selected{
+    margin-left: 32px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: none;
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+color:#ffffff;
+cursor: pointer;
+
+
+}
+
+.filter-item{
+    span:hover{
+    color: #ffffff;
+    cursor: pointer;}
+}
+
+
+.filter_selected{
+    span:hover{
+        color: #ffffff;
+        cursor: pointer;}
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+    .user-section-container{
+        width: 100%;
+        position: relative;
+        height: 203px;
+        margin-bottom: 39px;
+      
+    
+    
+    .user-image-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 133px;
+        background: #5747EA;
+        border-radius: 12px;
+        padding-top: 0px; 
+        position: relative;
+        z-index: 2;
+    
+    
+    
+    .image-section{
+        display: flex;
+        justify-content: center;
+        margin-left: 32px;
+    }
+    
+    .title-section{
+        padding-left: 23px;
+        margin-top: 17px;
+        color: #ffffff;
+        font-family:'Rubik','sans-serif';
+    
+        span {
+            
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0px;
+            color: #BBC0FF;
+        }
+        h1{
+         
+
+
+font-family: Rubik;
+font-size: 24px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+
+    
+        }
+    
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    .filters-section{
+        width: 100%;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        background: #1C204B;
+        position: absolute;
+        top: 0%;
+        height: 190px;
+        z-index: 0;
+         padding-top: 0px; 
+        padding-bottom: 10px;
+    
+    
+    
+    
+    
+    
+    .filter-item{
+        margin-left: 0px;
+        text-transform: capitalize;
+        padding: 10px 0px;
+        background-color: transparent;
+        border: none;
+       
+        text-align: center;
+        color: #7078C9;
+        cursor: pointer;
+        font-family: Rubik;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: center;
+    
+    
+    }
+    .filter-selected{
+        margin-left: 0px;
+        text-transform: capitalize;
+        padding: 10px 0px;
+        background-color: transparent;
+        border: none;
+        font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#ffffff;
+    cursor: pointer;
+    
+    
+    }
+    .filter-item{
+        span:hover{
+        color: #ffffff;
+        cursor: pointer;}
+    }
+    
+    
+    .filter_selected{
+        span:hover{
+            color: #ffffff;
+            cursor: pointer;}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+    
+    
+    
+    
+    }
+
+}
